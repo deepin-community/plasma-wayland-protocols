@@ -3,26 +3,31 @@ Upstream-Name: plasma-wayland-protocols
 Source: https://invent.kde.org/libraries/plasma-wayland-protocols
 
 Files: *
-Copyright: 2013-2014, Pier Luigi Fiorini
-           2015, 2018, Marco Martin
+Copyright: 2019-2021, Aleix Pol Gonzalez <aleixpol@kde.org>
+           2017, David Edmundson
+           2015-2018, Marco Martin
            2015, Martin Gräßlin
            2016, Oleg Chernovskiy
-           2017, David Edmundson
-           2019-2020, Aleix Pol Gonzalez <aleixpol@kde.org>
+           2013-2014, Pier Luigi Fiorini
 License: LGPL-2.1+
 
 Files: cmake/Modules/*
 Copyright: 2019, Vlad Zahorodnii <vlad.zahorodnii@kde.org>
 License: BSD-3-Clause
 
-Files: src/protocols/outputdevice.xml
+Files: src/protocols/kde-output-device-v2.xml
+       src/protocols/kde-output-management-v2.xml
+       src/protocols/kde-primary-output-v1.xml
+       src/protocols/outputdevice.xml
        src/protocols/output-management.xml
        src/protocols/text-input-unstable-v2.xml
        src/protocols/text-input.xml
-Copyright: 2008-2011, Kristian Høgsberg
-           2010-2013, Intel Corporation
+Copyright: 2021, Aleix Pol Gonzalez <aleixpol@kde.org>
            2012-2013, Collabora, Ltd.
+           2010-2013, Intel Corporation
            2015-2016, Jan Arne Petersen
+           2008-2011, Kristian Høgsberg
+           2021, Méven Car <meven.car@enioka.com>
            2015, Sebastian Kügler <sebas@kde.org>
 License: MIT-CMU
 
@@ -36,6 +41,7 @@ License: Expat
 
 Files: debian/*
 Copyright: 2020, Pino Toscano <pino@debian.org>
+           2021-2022, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: LGPL-2.1+
 
 License: BSD-3-Clause
