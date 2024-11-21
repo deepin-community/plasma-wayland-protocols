@@ -1,8 +1,25 @@
+plasma-wayland-protocols (1.14.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (1.14.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 12 Sep 2024 23:17:18 +0200
+
+plasma-wayland-protocols (1.13.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (1.13.0).
+  * Bump Standards-Version to 4.7.0, no change required.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 25 May 2024 23:23:20 +0200
+
 plasma-wayland-protocols (1.10.0-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
   * New upstream release (1.10.0). This is the same as 1.10 with the correct
     versioning scheme.
+  * Add/update Jonathan Esk-Riddell in upstream signing keys.
 
  -- Aurélien COUDERC <coucouf@debian.org>  Fri, 20 Jan 2023 17:50:59 +0100
 
